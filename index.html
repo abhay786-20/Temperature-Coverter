@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Coverter</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            padding: 50px 100px;
+            background-image: url(download2.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+           
+            
+        }
+        h2{
+            text-align: center;
+            color: rgba(224, 19, 77, 0.956);
+            font-family:cursive;
+           
+        }
+        #container{
+            text-align: center;
+            padding: 100px;
+            justify-content:space-between ;
+        } 
+        .input-div{
+            display: inline-block;
+            padding-left: 50px;
+            padding-right: 50px ;
+            justify-content: space-evenly;
+        }
+        .inp{
+            padding: 5px 15px;
+            margin: 15px;
+            font-size: 25px;
+            font-weight: bold;
+            width: 150px;
+            text-align: center;
+        }
+        label{
+            font-size: 35px;
+            font-family: cursive;
+            color:black;
+        }
+    </style>
+   
+</head>
+<body>
+
+    <h2>Temperature Coverter</h2>
+
+    <div id="container">
+
+        <div id="cell" class = "input-div">
+            <label >Celsius</label><br>
+            <input type="number" name="" id="cel" value = "0" class = "inp">
+        </div>
+
+        <div id="fah" class = "input-div">
+            <label >Fahrenheit</label>
+            <br>
+            <input type="number" name="" id="fr" value = "32" class = "inp">
+        </div> 
+        
+    </div>
+ <script src="temp.js"></script>
+</body>
+</html>
